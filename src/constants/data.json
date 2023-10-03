@@ -1,0 +1,31 @@
+[
+    {
+        "type": "text",
+        "validation": "^[A-Za-z]+$",
+        "default_value": "",
+        "value": ""
+    },
+    {
+        "type": "longtext",
+        "validation": "^[A-Za-z ]+$",
+        "default_value": "",
+        "value": ""
+    },
+    {
+        "type": "number",
+        "min_value": 1,
+        "max_value": 10,
+        "default_value": 5,
+        "value": 5
+    },
+    {
+        "type": "dropdown",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3"
+        ],
+        "default_value": "Option 1",
+        "value": "Option 1"
+    }
+]
